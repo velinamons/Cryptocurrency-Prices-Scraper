@@ -1,5 +1,5 @@
 # virtual environment #
-*env*
+*env
 
 # PyCharm #
 .idea/
@@ -10,3 +10,10 @@ __pycache__/
 
 # OS-related files #
 .DS_Store
+
+# Database #
+*.db
+
+# Alembic migrations #
+alembic/versions/*
+!alembic/versions/README.md
